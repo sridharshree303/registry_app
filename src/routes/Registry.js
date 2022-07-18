@@ -18,8 +18,10 @@ function Registry(){
     }
 
     useEffect(()=>{
-        if(textinput.length > 10) setError(true);
-        else setError(false);
+        if(textinput.length > 10) 
+            setError(true);
+        else 
+            setError(false);
     },[textinput]);
     
     const removeItem = (index) => {
